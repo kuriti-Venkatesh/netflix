@@ -1,0 +1,79 @@
+
+.one-one{
+    height: 400px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.one-one h1{
+    color: white;
+    font-size: 2.125rem;
+    font-weight: bold;
+    padding-left: 54px;
+}
+.one-one p{
+    text-align: center;
+    color:white;
+    font-weight: 600;
+}
+.one-one search{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    padding: 0%;
+   margin:0%
+}
+.navbar-toggler{
+    background-color: white  !important;
+}
+.navbar-toggler-icon{
+    color: #fff  !important;
+
+}
+.main-search-sub{
+    width: 500px;
+    border: 2px solid white;
+    height: 40px;
+    
+}
+.main-btn{
+    background-color: red;
+    color: #fff;
+    font-weight: 400;
+    border: 2px  solid red;
+    width: 00px;
+    height: 40px;
+}
+.bgimg{
+    background-image: linear-gradient(45deg,
+  rgb(51 43 43 / 75%),
+          rgb(51 43 43 / 75%),
+          rgb(20 19 20 / 61%)), url(./images/net.bgimg.jpg);
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.box-shot{
+    position: absolute; 
+    left: 14%;
+    top: 1100px;
+    transform: translateX(-50%);
+    border-color: hotpink;
+    border-radius: 0.75rem;
+    background:black;
+    color: white;
+    padding: 0.25rem 0.65rem;
+}
+.box1{
+    margin-left: 15px;
+}
+video{
+    width: 253px;
+    position: absolute;
+    right: 29.5%;
+    top: 610px;
+} 
+.hstack{
+    justify-content: center;
+}
